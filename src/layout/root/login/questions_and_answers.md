@@ -1,57 +1,113 @@
-1. Write the correct answer from the following options and give an explanation (2-5 lines).
+<div >
+  <img height="60" src="https://edurev.gumlet.io/AllImages/original/ApplicationImages/CourseImages/944e5d47-8c55-4a89-91e5-22ab5f2798fc_CI.png">
+  <h1>MCQ TEST</h1>
+</div>
+
+###### 1. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+```javascript
 let greeting;
 greetign = {};
 console.log(greetign);
-A: {}
-B: ReferenceError: greetign is not defined
-C: undefined
+```
 
-answer:B
-cause In the given code, there's a typo in the variable name. It is declared as "greetign" but then assigned an empty object.JavaScript will throw a ReferenceError because "greetign" is not defined.
+- A: `{}`
+ B: `ReferenceError: greetign is not defined`
+- C: `undefined`
 
-2. Write the correct answer from the following options and give an explanation (2-5 lines).
+ - B: `ReferenceError: greetign is not defined`
+- C: `undefined`
+<details><summary><b>Answer: B</b></summary>
+
+<p>
+ #### Answer: B
+<i>The variable should be named "greeting," but it's mistakenly spelled as "greetign." As a result, when we try to log "greetign," a ReferenceError is thrown because the variable "greetign" is not defined.</i>
+
+</p>
+</details>
+
+
+
+###### 2. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
 function sum(a, b) {
   return a + b;
 }
 
 sum(1, "2");
-A: NaN
-B: TypeError
-C: "12"
-D: 3
+```
 
-answer: c;
-explaination:it will convert the number 1 to a string and then concatenate it with the string "2," resulting in the string "12." When i call the sum function with these arguments, it will perform a string concatenation, not numerical addition, and return "12" as a string.
+- A: `NaN`
+- B: `TypeError`
+- C: `"12"`
+- D: `3`
 
-03.3. Write the correct answer from the following options and give an explanation (2-5 lines).
+<details><summary><b>Answer:C</b></summary>
+<p>
+
+#### Answer: c;
+
+<i>The number 1 is converted to a string and then concatenated with "2," resulting in the string "12" When i call the sum function with these arguments, it returns "12".</i>
+
+</p>
+</details>
+
+
+
+
+###### 3. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
 const food = ["🍕", "🍫", "🥑", "🍔"];
 const info = { favoriteFood: food[0] };
 
 info.favoriteFood = "🍝";
 
 console.log(food);
-A: ['🍕', '🍫', '🥑', '🍔']
-B: ['🍝', '🍫', '🥑', '🍔']
-C: ['🍝', '🍕', '🍫', '🥑', '🍔']
-D: ReferenceError
+```
 
-answer:A
-explanation is:info.favoriteFood initially references the first element of the food array, which is "🍕". However, later in the code, it's reassigned to "🍝." This change doesn't affect the food array itself, so when you log the food array, it remains unchanged.
+- A: `['🍕', '🍫', '🥑', '🍔']`
+- B: `['🍝', '🍫', '🥑', '🍔']`
+- C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
+- D: `ReferenceError`
+<details><summary><b>Answer:A</b></summary>
+<p>
+#### Answer: A;
 
-4. Write the correct answer from the following options and give an explanation (2-5 lines).
+<i>this change does not affect the food array. The food array remains unchanged and still contains the original</i>
+
+</p>
+</details>
+
+
+
+###### 4. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
 function sayHi(name) {
   return `Hi there, ${name}`;
 }
 
 console.log(sayHi());
-A: Hi there,
-B: Hi there, undefined
-C: Hi there, null
-D: ReferenceError
+```
 
-answer:B
-explanation is:there's a parameter name, but when we call the function with sayHi(), we don't provide any argument for name. In JavaScript, if we don't pass a value for a parameter, it defaults to undefined.
-5. Write the correct answer from the following options and give an explanation (2-5 lines).
+- A: `Hi there,`
+- B: `Hi there, undefined`
+- C: `Hi there, null`
+- D: `ReferenceError`
+
+<details><summary><b>Answer:B</b></summary>
+<p>
+#### Answer: B
+
+<i>The sayHi function expects an argument name to be passed when called. In this case, you haven't provided an argument, so name is undefined</i>
+
+</p>
+</details>
+
+###### 5. Write the `correct answer` from the following options and give an explanation (2-5 lines).
+
+```javascript
 let count = 0;
 const nums = [0, 1, 2, 3];
 
@@ -60,12 +116,22 @@ nums.forEach((num) => {
 });
 
 console.log(count);
-A: 1
-B: 2
-C: 3
-D: 4
-answer:B;
-explanation:forEach method iterates over the elements of the nums array and executes the provided callback function for each element. In JavaScript, the number 0 is considered falsy, so the condition if (num) is false for 0. Therefore, the count variable is incremented only when num is a truthy value (non-zero), which happens for the numbers 1, 2, and 3. So, count is incremented three times, resulting in a value of 2 when you log it.
+```
+
+- A: 1
+- B: 2
+- C: 3
+- D: 4
+
+<details><summary><b>Answer:b</b></summary>
+<p>
+#### Answer: b
+
+<i>only two elements in the array (1 and 2) are not 0, so count is incremented twice, resulting in a value of 2.</i>
+
+</p>
+</details>
+
 
 
 

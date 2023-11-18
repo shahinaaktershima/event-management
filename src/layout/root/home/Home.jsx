@@ -6,17 +6,25 @@ import Services from "./Services";
 import Footer from "./Footer";
 import AosSlider from "./AosSlider";
 import Qna from "./Qna";
+import { useEffect, useState } from "react";
 
 
 
 const Home = () => {
-    const services=useLoaderData();
+   
+    const [services,setServices]=useState([]);
+    useEffect(()=>{
+        fetch('/fakedata.json')
+        .then(res=>res.json())
+        .then(data=>setServices(data))
+    },[])
    
     return (
         <div className="max-w-6xl mx-auto">
-            
+          
             <Navbar></Navbar>
             <Banner></Banner>
+            
             
             <div className="my-10 grid grid-cols-1 md:grid-cols-3 gap-5 ">
                 {
@@ -24,7 +32,9 @@ const Home = () => {
                 }
             </div>
             <Qna></Qna>
-            <AosSlider></AosSlider>
+           <div className="my-10">
+           <AosSlider></AosSlider>
+           </div>
          <Footer></Footer>
         </div>
     );
