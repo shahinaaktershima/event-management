@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "name": "Event Planning",
+    "image": "https://i.ibb.co/mBhRPm4/wedding-bands-hands-bride-groom-with-beautiful-wedding-bouquet-made-greenery-white-flowers-1.jpg",
+    "price": "$1000",
+    "description": "Our event planning service specializes in crafting unforgettable experiences. With a team of seasoned professionals, we bring your vision to life, handling every detail from venue selection to budget management. Our attention to detail ensures a seamless, stress-free event. Whether it's a wedding, corporate gathering, or private celebration, our event planners tailor their expertise to your unique needs, creating cherished memories."
+  },
+  {
+    "id": "2",
+    "name": "Catering",
+    "image": "https://i.ibb.co/ZxqKb2x/pexels-elle-hughes-2696064.jpg",
+    "price": "$500",
+    "description":  "Satisfy your guests' palates with our exceptional catering service. We offer a diverse menu of culinary delights that please the taste buds and add sophistication to your event. Our skilled chefs and catering staff deliver top-tier service and delectable cuisine, leaving a lasting impression."
+  },
+  {
+    "id": "3",
+    "name": "Photography",
+    "image": "https://i.ibb.co/0rnXmWN/pexels-ahmed-18444696.jpg",
+    "price": "$800",
+    "description": "Capture your event's essence with our professional photography service. Our skilled photographers specialize in candid moments, emotions, and the unique atmosphere of your special day. We approach each event with creativity and passion, ensuring high-quality photos that tell a compelling story."
+  },
+  {
+    "id": "4",
+    "name": "Venue Rental",
+    "image": "https://i.ibb.co/GMXHTWD/luxurious-dinner-hall-with-large-crystal-chandelier.jpg",
+    "price": "$1200",
+    "description":  "Find the perfect venue with our rental service. We offer event spaces for gatherings of all sizes, curated for charm and elegance. Our experienced staff takes care of logistics, ensuring an unforgettable setting for your event."
+  },
+  {
+    "id": "5",
+    "name": "Entertainment",
+    "image": "https://i.ibb.co/JjTcGSZ/cheerful-senior-couple-happy-about-their-date-husband-giving-flower-his-wife-enjoying-retirement.jpg",
+    "price": "$600",
+    "description": "Elevate your event with captivating entertainment. From live music to DJs and performers, our talent keeps guests engaged and creates unforgettable memories. Our entertainment team works closely with you to match your preferences and create the perfect ambiance."
+  },
+  {
+    "id": "6",
+    "name": "Decorations",
+    "image": "https://i.ibb.co/xCnjK2Z/pexels-paola-vasquez-3593434.jpg",
+    "price": "$400",
+    "description":  "Transform your event space with our decoration services. Our decorators specialize in personalized decor, from floral arrangements to lighting design, creating a breathtaking ambiance. We source high-quality materials to ensure a magical and memorable atmosphere."
+  
+  }
+]
