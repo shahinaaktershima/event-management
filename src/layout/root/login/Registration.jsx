@@ -23,6 +23,7 @@ const Registration = () => {
     const password=form.get('password');
     const name=form.get('name');
     const photo =form.get('photo');
+    
     if(!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(password)){
      setError('your password should have one uppercase one lower case and one special character');
     }
@@ -61,6 +62,7 @@ const Registration = () => {
     return (
         <div>
           <Navbar></Navbar>
+          <p className='text-blue-500 font-bold text-center'>{error}</p>
           <h2 className="text-center text-2xl font-semibold">Please Register</h2>
 
 
@@ -97,7 +99,7 @@ const Registration = () => {
     <ToastContainer></ToastContainer>
   </div>
 </form>
-<p className='text-blue-500 font-bold text-center'>{error}</p>
+
 <p className="mt-4 text-center ">Already  have an account ?<Link className="font-bold text-blue-600" to='/login'>Login</Link></p> 
         </div>
     )
