@@ -1,6 +1,6 @@
 assignment-name:event-management
 live-link:
-live-link:https://event-management-1f397.web.app
+live-link:https://655912ed7e367c1ed9d75e21--vocal-dieffenbachia-b1cef2.netlify.app/
 
 
 features that i use in this project:

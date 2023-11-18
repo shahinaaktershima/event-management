@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import Banner from "./Banner";
+
+ import Banner from "./Banner";
 import Navbar from "./Navbar";
 import Services from "./Services";
 import Footer from "./Footer";
